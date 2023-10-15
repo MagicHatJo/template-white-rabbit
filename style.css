@@ -7,7 +7,6 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
 	font-family: 'Inter', Arial, sans-serif;
 }
 
@@ -22,7 +21,6 @@ h3 {
 ul {
 	display: flex;
 	list-style-type: none;
-
 	align-items: center;
 	justify-content: center;
 	gap: 25px;
@@ -35,9 +33,7 @@ ul {
 
 /* Window Frame */
 .window-frame {
-	border-color: var(--main-border-color);
-	border-width: 2px;
-	border-style: solid;
+	border: 2px solid var(--main-border-color);
 }
 
 .window-frame .title-bar {
@@ -49,23 +45,19 @@ ul {
 	background-color: var(--main-border-color)
 }
 
-.title-left {
+.title-left,
+.title-right {
 	display: flex;
 	flex: 1;
 	align-items: center;
 	color: #FFFFFF;
-	
 }
 
 .title-right {
-	display: flex;
-	flex: 1;
 	justify-content: right;
 }
 
 .title-right ul {
-	align-items: center;
-	justify-content: right;
 	margin: 0;
 	padding: 0;
 	gap: 0;
@@ -98,9 +90,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	margin: 0;
-	padding: 0;
 }
 
 .title-with-socials * {
@@ -114,11 +104,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 50px auto;
 	width: 700px;
 }
 
