@@ -63,6 +63,11 @@ ul {
 	color: #FFFFFF;
 }
 
+.title-left {
+	flex-shrink: 0;
+	white-space: nowrap;
+}
+
 .title-right {
 	justify-content: right;
 }
@@ -289,7 +294,7 @@ input[type=submit]:hover {
 	font-size: 14px;
 }
 
-.title-right ul {
+.title-right {
 	align-items: flex-end;
 	gap: 10px;
 }
