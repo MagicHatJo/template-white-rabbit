@@ -103,6 +103,7 @@ ul {
 .window-row span {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 /* Components */
@@ -257,7 +258,10 @@ input[type=submit]:hover {
 }
 
 .inner-container {
-	width: 95%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 80%;
 	min-width: 300px;
 }
 
@@ -294,5 +298,5 @@ input[type=submit]:hover {
 @media (max-width: 525px) {
 .window-row {
 	flex-direction: column;
-}	
+}
 }
