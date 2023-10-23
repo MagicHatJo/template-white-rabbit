@@ -1,12 +1,12 @@
 const divIDs = {
-	home: "home",
-	faq: "faq",
+	home   : "home",
+	faq    : "faq",
 	contact: "contact"
 };
 
 const navIDs = {
-	home: "nav-home",
-	faq: "nav-faq",
+	home   : "nav-home",
+	faq    : "nav-faq",
 	contact: "nav-contact"
 }
 
